@@ -484,3 +484,46 @@ AttributeError: 'DataValidationTrainingPipeline' object has no attribute 'initia
 [2026-06-15 11:01:10,270]:INFO: common create directory at: artifacts
 [2026-06-15 11:01:10,276]:INFO: common create directory at: artifacts/model_trainer
 [2026-06-15 11:01:10,286]:INFO: main >>>> stage Model Trainer stage Completed <<<<
+[2026-06-20 15:01:33,544]:INFO: _internal [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.3:8080
+[2026-06-20 15:01:33,545]:INFO: _internal [33mPress CTRL+C to quit[0m
+[2026-06-20 15:01:48,698]:INFO: _internal 127.0.0.1 - - [20/Jun/2026 15:01:48] "GET / HTTP/1.1" 200 -
+[2026-06-20 15:01:48,767]:INFO: _internal 127.0.0.1 - - [20/Jun/2026 15:01:48] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+[2026-06-20 15:01:48,789]:INFO: _internal 127.0.0.1 - - [20/Jun/2026 15:01:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-06-20 15:02:26,933]:INFO: main >>>>>Data Ingestion Stage started <<<<
+[2026-06-20 15:02:26,933]:INFO: common yaml file: config\config.yaml loaded successfully
+[2026-06-20 15:02:26,933]:INFO: common yaml file: params.yaml loaded successfully
+[2026-06-20 15:02:26,941]:INFO: common yaml file: schema.yaml loaded successfully
+[2026-06-20 15:02:26,941]:INFO: common create directory at: artifacts
+[2026-06-20 15:02:26,941]:INFO: common create directory at: artifacts/data_ingestion
+[2026-06-20 15:02:26,941]:INFO: data_ingestion File already exists
+[2026-06-20 15:02:26,944]:INFO: main >>>> stage Data Ingestion Stage Completed <<<<
+[2026-06-20 15:02:26,944]:INFO: main >>>>>Model Validation stage started <<<<
+[2026-06-20 15:02:26,946]:INFO: common yaml file: config\config.yaml loaded successfully
+[2026-06-20 15:02:26,950]:INFO: common yaml file: params.yaml loaded successfully
+[2026-06-20 15:02:26,952]:INFO: common yaml file: schema.yaml loaded successfully
+[2026-06-20 15:02:26,952]:INFO: common create directory at: artifacts
+[2026-06-20 15:02:26,952]:INFO: common create directory at: artifacts/data_validation
+[2026-06-20 15:02:26,957]:INFO: main >>>> stage Model Validation stage Completed <<<<
+[2026-06-20 15:02:26,957]:INFO: main >>>>>Model Transformation stage started <<<<
+[2026-06-20 15:02:26,963]:INFO: common yaml file: config\config.yaml loaded successfully
+[2026-06-20 15:02:26,963]:INFO: common yaml file: params.yaml loaded successfully
+[2026-06-20 15:02:26,963]:INFO: common yaml file: schema.yaml loaded successfully
+[2026-06-20 15:02:26,965]:INFO: common create directory at: artifacts
+[2026-06-20 15:02:26,965]:INFO: common create directory at: artifacts/data_transformation
+[2026-06-20 15:02:27,004]:INFO: data_transformation Splited data into training and test sets
+[2026-06-20 15:02:27,004]:INFO: data_transformation (1199, 12)
+[2026-06-20 15:02:27,004]:INFO: data_transformation (400, 12)
+[2026-06-20 15:02:27,004]:INFO: main >>>> stage Model Transformation stage Completed <<<<
+[2026-06-20 15:02:27,004]:INFO: main >>>>>Model Trainer stage started <<<<
+[2026-06-20 15:02:27,004]:INFO: common yaml file: config\config.yaml loaded successfully
+[2026-06-20 15:02:27,004]:INFO: common yaml file: params.yaml loaded successfully
+[2026-06-20 15:02:27,004]:INFO: common yaml file: schema.yaml loaded successfully
+[2026-06-20 15:02:27,004]:INFO: common create directory at: artifacts
+[2026-06-20 15:02:27,004]:INFO: common create directory at: artifacts/model_trainer
+[2026-06-20 15:02:27,053]:INFO: main >>>> stage Model Trainer stage Completed <<<<
+[2026-06-20 15:02:27,376]:INFO: _internal 127.0.0.1 - - [20/Jun/2026 15:02:27] "GET /train HTTP/1.1" 200 -
+[2026-06-20 15:02:34,899]:INFO: _internal 127.0.0.1 - - [20/Jun/2026 15:02:34] "GET / HTTP/1.1" 200 -
+[2026-06-20 15:02:34,926]:INFO: _internal 127.0.0.1 - - [20/Jun/2026 15:02:34] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -

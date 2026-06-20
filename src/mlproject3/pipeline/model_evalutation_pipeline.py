@@ -5,8 +5,8 @@ from src.mlproject3 import logger
 import os
 
 os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/krishanudas0100/End-to-End-mloproject-3.mlflow"
-# os.environ["MLFLOW_TRACKING_USERNAME"] = "krishanudas0100"
-# os.environ["MLFLOW_TRACKING_PASSWORD"] = "5048f4d57b38e3a7fe05f3b7e661879acf8613d3"
+os.environ["MLFLOW_TRACKING_USERNAME"] = "krishanudas0100"
+os.environ["MLFLOW_TRACKING_PASSWORD"] = "5048f4d57b38e3a7fe05f3b7e661879acf8613d3"
 
 STAGE_NAME = "Model Evaluation Stage"
 
