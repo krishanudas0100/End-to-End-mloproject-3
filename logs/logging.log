@@ -863,3 +863,5 @@ AttributeError: 'ConfigurationManager' object has no attribute 'get_model_evalua
 
 x==========x
 [2026-06-20 16:12:13,467]:INFO: _internal 127.0.0.1 - - [20/Jun/2026 16:12:13] "GET /train HTTP/1.1" 200 -
+[2026-06-20 17:09:38,397]:INFO: _internal 127.0.0.1 - - [20/Jun/2026 17:09:38] "GET / HTTP/1.1" 200 -
+[2026-06-20 17:09:38,470]:INFO: _internal 127.0.0.1 - - [20/Jun/2026 17:09:38] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
