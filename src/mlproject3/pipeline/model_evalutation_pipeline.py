@@ -1,7 +1,7 @@
 from src.mlproject3.config.configuration import ConfigurationManager
 from src.mlproject3.components.model_evalutation import ModelEvaluation
 from src.mlproject3 import logger
-
+import mlflow
 import os
 
 os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/krishanudas0100/End-to-End-mloproject-3.mlflow"

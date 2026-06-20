@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 from src.mlproject3.pipeline.prediction_pipeline import PredictionPipeline
 import os
+import mlflow
 
 os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/krishanudas0100/End-to-End-mloproject-3.mlflow"
 os.environ["MLFLOW_TRACKING_USERNAME"] = "krishanudas0100"
